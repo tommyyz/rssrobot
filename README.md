@@ -29,9 +29,7 @@ var opts = {
 			// }
 		}
 	},
-	'fields': ['title', 'description', 'summary', 'date', 'author'],
-	
-	
+	'fields': ['title', 'description', 'summary', 'date', 'author']
 };
 var myRobot = new RssRobot(opts);
 myRobot.on('ready', function(model) {
