@@ -37,6 +37,8 @@ myRobot.on('ready', function(model) {
 	.then(function(data) {
 		console.log(data);
 	});
-	
+	// model.find({title: /.*something.*/}).then(function(data) {
+	// 	console.log(data);
+	// })
 });
   ```
