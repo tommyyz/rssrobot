@@ -19,6 +19,7 @@ var opts = {
 				'db_port': '27017',
 				'db_name': 'rssrobot'
 			}
+			// mysql and redis will be available soon
 		}
 	},
 	'fields': ['title', 'description', 'summary', 'date', 'author'],
