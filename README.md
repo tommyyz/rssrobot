@@ -20,6 +20,13 @@ var opts = {
 				'db_name': 'rssrobot'
 			}
 			// mysql and redis will be available soon
+			// 'mysql': {
+			// 	'db_addr': '127.0.0.1',
+			// 	'db_port': '3306',
+			// 	'db_name': 'rssrobot',
+			// 	'db_user': 'root',
+			// 	'db_pass': 'root'
+			// }
 		}
 	},
 	'fields': ['title', 'description', 'summary', 'date', 'author'],
